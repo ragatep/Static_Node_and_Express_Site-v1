@@ -5,6 +5,8 @@ const app = express();
 const path = require('path');
 // Import route definitions
 const indexRouter = require('./routes/index.js');
+// For remote port
+const port = process.env.PORT || 3000; // default
 /**
  * Setup view engine
  */
@@ -66,6 +68,6 @@ app.use((err, req, res, next) => {
  * Function that is used to bind and listen the connections on the
  * specified host and port
  */
-app.listen(3000, () => {
+app.listen(port, () => {
   console.log('The application is running on localhost:3000');
 });

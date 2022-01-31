@@ -39,7 +39,7 @@
         "id": "4",
         "project_name": "Public API Request",
         "description": "A web app to demonstrate my skills, including working with public APIs and making API requests and asynchronously handling the data. This app uses the Random User Generator API to grab information for 12 random \"employees\" and use that data to build an employee directory web app for a fictional company called Awesome Startup. This build is for a project from Teamtreehouse's Techdegree Full Stack Javascript Unit 5.",
-        "technologies": ["HTML", "Javscript", "CSS", "APIs"],
+        "technologies": ["HTML", "Javscript", "CSS", "Fetch and Public APIs"],
         "live_link": "https://ragatep.github.io/Public_API_Requests_v1/",
         "github_link": "https://github.com/ragatep/Public_API_Requests_v1",
         "image_urls": ["/static/images/public-api-requests-thumb.png", "/static/images/public-api-requests-1.png", "/static/images/public-api-requests-2.png"]
