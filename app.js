@@ -30,7 +30,7 @@ app.use('/', indexRouter);
  * 404 handler to catches undefined or non-existent route requests
  */
 app.use((req, res, next) => {
-    console.log('404 error handler called');
+    console.log('404 error handler called log from app.js');
     /**
      * Sends a response to the client
      * Sets the response status to 404

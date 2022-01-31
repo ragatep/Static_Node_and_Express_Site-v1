@@ -27,8 +27,8 @@ router.get('/error', (req, res, next) => {
     // Log out custom error handler indication
     console.log('Custom error route called');
     const err = new Error();
-    err.message = `Custom 500 error thrown`
     err.status = 500;
+    err.message = `This might as well be thrown in hieroglyphic: `
     throw err;
 });
 /**
@@ -51,7 +51,7 @@ router.get('/project/:id', (req, res, next) => {
     } else {
         const err = new Error();
         err.status = 404;
-        err.message = `Looks like the quote you requested doesn't exist.`
+        err.message = `This might as well be thrown in hieroglyphic: `
         next(err);
         }
 });
