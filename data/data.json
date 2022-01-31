@@ -1,0 +1,48 @@
+{
+    "projects": [{
+        "id": "0",
+        "project_name": "A Random Quote Generator",
+        "description": "A web app that generates and displays funny random movies quotes to demonstrate what I’ve learned from Teamtreehouse’s Techdegree Full Stack Javascript Unit 1.",
+        "technologies": ["HTML", "Javscript", "CSS"],
+        "live_link": "https://ragatep.github.io/A_Random_Quote_Generator/",
+        "github_link": "https://github.com/ragatep/A_Random_Quote_Generator",
+        "image_urls": ["/static/images/random-quote-generator-thumb.png", "/static/images/random-quote-generator-1.png", "/static/images/random-quote-generator-2.png"]
+      },
+      {
+        "id": "1",
+        "project_name": "Data Pagination and Filtering",
+        "description": "A web app that demonstrates a web development technique known as \"pagination\" that enhances a web page's usability. This build is for a project from Teamtreehouse's Techdegree Full Stack Javascript Unit 2",
+        "technologies": ["HTML", "Javscript", "CSS"],
+        "live_link": "https://ragatep.github.io/Data_Pagination_and_Filtering/",
+        "github_link": "https://github.com/ragatep/Data_Pagination_and_Filtering",
+        "image_urls": ["/static/images/data-pagination-thumb.png", "/static/images/data-pagination-1.png", "/static/images/data-pagination-2.png"]
+      },
+      {
+        "id": "2",
+        "project_name": "Interactive Form",
+        "description": "A web form with added interactivity and enhancements on useability using Javascript. This build is for a project from Teamtreehouse's Techdegree Full Stack Javascript Unit 3.",
+        "technologies": ["HTML", "Javscript", "CSS", "Accessibility"],
+        "live_link": "https://ragatep.github.io/Interactive_Form/",
+        "github_link": "https://github.com/ragatep/Interactive_Form",
+        "image_urls": ["/static/images/interactive-form-thumb.png", "/static/images/interactive-form-1.png", "/static/images/interactive-form-2.png"]
+      },
+      {
+        "id": "3",
+        "project_name": "OOP Gameshow App",
+        "description": "A browser-based, word guessing game that demonstrate my undertanding of object-oriented JavaScript (OOJS) principles. This build is for a project from Teamtreehouse's Techdegree Full Stack Javascript Unit 4.",
+        "technologies": ["HTML", "Object Oriented Javscript", "CSS"],
+        "live_link": "https://ragatep.github.io/OOP_Game_Show_App/",
+        "github_link": "https://github.com/ragatep/OOP_Game_Show_App",
+        "image_urls": ["/static/images/interactive-oop-game-thumb.png", "/static/images/interactive-oop-game-1.png", "/static/images/interactive-oop-game-2.png"]
+      },
+      {
+        "id": "4",
+        "project_name": "Public API Request",
+        "description": "A web app to demonstrate my skills, including working with public APIs and making API requests and asynchronously handling the data. This app uses the Random User Generator API to grab information for 12 random \"employees\" and use that data to build an employee directory web app for a fictional company called Awesome Startup. This build is for a project from Teamtreehouse's Techdegree Full Stack Javascript Unit 5.",
+        "technologies": ["HTML", "Javscript", "CSS", "APIs"],
+        "live_link": "https://ragatep.github.io/Public_API_Requests_v1/",
+        "github_link": "https://github.com/ragatep/Public_API_Requests_v1",
+        "image_urls": ["/static/images/public-api-requests-thumb.png", "/static/images/public-api-requests-1.png", "/static/images/public-api-requests-2.png"]
+      }
+    ]
+  }
