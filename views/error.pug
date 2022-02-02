@@ -4,9 +4,9 @@ block content
   div.container
     h1= `${err.status} - Server Error`
     .error-505
-      img.error-505_img(src="/static/images/custom_505.png", title=`Translation: Oops!  It looks like something went wrong on the server.`, alt="Custom 505 Server Error")
+      img.thumbnail(src="/static/images/custom_505.png", title=`Translation: Oops!  It looks like something went wrong on the server.`, alt="Custom 505 Server Error")
     hr
     a.home(href=`/`) Home
     hr
-    div.not-found-stack
+    div.page-not-found-stack
       pre #{err.stack}

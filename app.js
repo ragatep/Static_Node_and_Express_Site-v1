@@ -1,3 +1,5 @@
+'use strict';
+
 // Variables
 const express = require('express');
 const app = express();
@@ -36,9 +38,9 @@ app.use((req, res, next) => {
     /**
      * Sends a response to the client
      * Sets the response status to 404
-     * Renders the 'not-found' view
+     * Renders the 'page-not-found' view
      */ 
-    res.status(404).render('not-found');
+    res.status(404).render('page-not-found');
 });
 /**
  * Global error handler
@@ -51,14 +53,14 @@ app.use((err, req, res, next) => {
      * Handles errors caught by your route handlers
      * if the error status is 404:
      *  Sets the response status to 404
-     *  Renders the 'not-found' view and pass the error object to the view
+     *  Renders the 'page-not-found' view and pass the error object to the view
      * else
      *  Sets the error message to the given message, or specify a general, 
             default error message
      *  Renders the 'error' view, passing it the error object   
      */
     if (err.status === 404) {
-      res.status(404).render('not-found', { err });
+      res.status(404).render('page-not-found', { err });
     } else {
       err.message = err.message || `Oops!  It looks like something went wrong on the server.`;
       res.status(err.status || 500).render('error', { err });

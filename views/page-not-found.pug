@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  div.container
+    h1= `404 - Page Not Found`
+    .error-404
+      img.thumbnail(src="/static/images/custom_404.png", title="Translation: Oops!  It looks like the page you're looking for does not exist.", alt="Custom 404 Server Error")
+    hr
+    a.home(href=`/`) Home
+    hr
+    if err
+      div.page-not-found-stack
+        pre #{err.stack}

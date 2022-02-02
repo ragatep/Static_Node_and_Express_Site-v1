@@ -1,3 +1,5 @@
+'use strict';
+
 // Variables
 const express = require('express');
 const router = express.Router();
@@ -45,7 +47,7 @@ router.get('/project/:id', (req, res, next) => {
     console.log(`Project ${req.params.id} route called`);
     const projectId = req.params.id;
     const project = projects.find(({ id }) => id === projectId);
-    console.log(project);
+    // console.log(project);
     if (project) {
         res.render('project', { project });
     } else {
